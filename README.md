@@ -8,7 +8,6 @@ This template has a few modifications applied to the vanilla Svelte template:
 * Rollup configured to export multiple app bundles,
   * Default export is still based upon `App.svelte`, but `main.js` has been renamed `main-App.js` and has been modified to target an element created in the html template by django-svelte (e.g. `app-target` and `app-props`; the name `app` is keying off of the component name: `App.js`)
   * To export additional component js/css bundles add the name of the component (e.g. "MyComponent") to the Array at the bottom of `rollup.config.js`, create the component with that name ("MyComponent.svelte"), create a `main-MyComponent.js` by copying `main-App.js` and replace all instances of "app" with "mycomponent" (observing appropriate casing "App" -> "MyComponent"). You may need to restart the Node.js instance for your changes to take effect. See [django-svelte-demo](https://github.com/thismatters/django-svelte-demo) for an example of this in action.
-* Rollup configured to replace environment variable `API_BASE_URL` into svelte code (using [@rollup/plugin-replace](https://www.npmjs.com/package/@rollup/plugin-replace)),
 
 ---
 
