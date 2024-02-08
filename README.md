@@ -1,4 +1,4 @@
-This Svelte 3 template is no longer current. Please see the [instructions for setting up a Svelte 4 deployment](https://github.com/thismatters/django-svelte/tree/main/demo_project/svelte) appropriate for use along `django-svelte`.
+# This Svelte 3 template is no longer current. Please see the [instructions for setting up a Svelte 4 deployment](https://github.com/thismatters/django-svelte/tree/main/demo_project/svelte) appropriate for use along `django-svelte`.
 
 ---
 
